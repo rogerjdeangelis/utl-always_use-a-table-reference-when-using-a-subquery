@@ -17,6 +17,9 @@ Possible explanation:
 If the column referenced in the inner subquery does not exist use the names and values from the outer table.
 An inner join may be faster or hash might be faster and less cpu?
 
+github
+https://tinyurl.com/yyz335j8
+https://github.com/rogerjdeangelis/utl-always_use-a-table-reference-when-using-a-subquery
 
 SAS-L which references StackOverflow
 https://listserv.uga.edu/cgi-bin/wa?A2=SAS-L;11810443.1907b
