@@ -7,7 +7,7 @@ Always use table references within subqueries?
     return all rows in the master table.
 
     Problem
-       Select name = "Roger' from the master table when there is no column 'name' in the subquery.
+       Select name  from the master table when there is no column 'name' in the subquery.
 
            Two attempted solutions
 
