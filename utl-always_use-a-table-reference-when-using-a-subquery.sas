@@ -1,4 +1,4 @@
-Always use table references within subqueries?
+StackOverflow SAS: Always use table references within subqueries?
 
 If the variable of the same name in the transaction subquery does not exist then SAS will
 return all rows in the master table.
@@ -9,19 +9,19 @@ Problem
        Two attempted solutions
 
          a. Incorrect Solution (returns all observations in the master - no warning or error)
-         b. Correct Solution failes with error message)
+         b. Correct Solution fails with an error message)
 
 
 Possible explanation:
 
-If the column refered in the inner subquery does not exist use the names and values from the outer table.
+If the column referenced in the inner subquery does not exist use the names and values from the outer table.
 An inner join may be faster or hash might be faster and less cpu?
 
 
-
+SAS-L which references StackOverflow
 https://listserv.uga.edu/cgi-bin/wa?A2=SAS-L;11810443.1907b
 
-Question and answwer by
+Question and answered by
 Joe Matise <snoopy369@GMAIL.COM>  et all
 
 *_                   _
@@ -150,4 +150,6 @@ proc sql;
  NOTE: PROCEDURE SQL used (Total process time):
        real time           0.00 seconds
        cpu time            0.00 seconds
+
+
 
